@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>AboutUs</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Aboutus.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="line clearfix">
+                    <img src="Image/logo1.png" alt="BlackPanther logo" class="logo">
+                    
+                    <ul class="main-nav animated slideInDown" id="check-class">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">SIGN UP</a></li>
+                    </ul>
+        
+                    <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+        
+            </div>
+        </nav>
+
+        <div class="main-content">
+                <h1> Whom We Are ? </h1>
+                <p class="space">
+                    Black Panther is a fictional superhero appearing in American comic books published by <span>Marvel Comics</span> The character was created by writer-editor <span>Stan Lee</span> and writer-artist <span>Jack Kirby</span>, first appearing in <span>Fantastic Four</span> #52 (cover-dated July 1966) in the Silver Age of Comic Books. Black Panther's real name is<span>T'Challa</span>, king and protector of the fictional African nation of <span>Wakanda</span>. 
+                </p>
+        </div>
+
+        <div class="about">
+                
+            <div class="images">
+                <img src="Image/facebook.png" class="intro face">
+                <img src="Image/instagram.png" class="intro insta">
+                <img src="Image/phone-call.png" class="intro phone">
+            </div>
+                
+            <div class="txt">
+                <a href="https://www.facebook.com/mr.pkpareshkumar29" class="face1">Keyur Panchal</a>
+                <a href="https://www.instagram.com/mr.pk29/" class="insta1">Keyur Panchal</a>
+                <a href="tel:+919825188891" class="phone1">+91 9825188891</a>
+            </div>
+
+        </div>
+    </header>
+
+    <script type="text/javascript">
+    
+        function slideshow(){
+                var x = document.getElementById('check-class');
+                
+                if(x.style.display === "none"){
+                    x.style.display = "block";
+                }else{
+                    x.style.display = "none";
+                }
+        }
+
+    </script>
+    
+</body>
+</html>
